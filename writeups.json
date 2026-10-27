@@ -1,13 +1,2 @@
 [
-  {
-    "slug": "contoh-web-ctf",
-    "title": "Contoh Write-up: Login Bypass via SQL Injection",
-    "date": "2026-10-20",
-    "category": "Web",
-    "difficulty": "Easy",
-    "platform": "Lab Pribadi",
-    "tags": ["SQLi", "Web", "OWASP"],
-    "summary": "Contoh cara menulis write-up: recon, eksploitasi, dan pelajaran dari form login yang rentan.",
-    "file": "contoh-web-ctf.md"
-  }
 ]
