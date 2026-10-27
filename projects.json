@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Port Scanner Sederhana",
+    "desc": "Scanner port berbasis Python dengan threading. Ini contoh, ganti dengan project-mu sendiri.",
+    "tags": ["Python", "Network"],
+    "status": "done",
+    "image": "",
+    "repo": "https://github.com/darvorolan-lang/port-scanner",
+    "demo": ""
+  },
+  {
+    "title": "Log Analyzer Brute Force",
+    "desc": "Membaca log server dan mendeteksi pola login gagal yang mencurigakan.",
+    "tags": ["Blue Team", "Python"],
+    "status": "wip",
+    "image": "",
+    "repo": "https://github.com/darvorolan-lang/log-analyzer",
+    "demo": ""
+  }
+]

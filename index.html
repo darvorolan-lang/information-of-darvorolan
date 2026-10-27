@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Portfolio · Cybersecurity</title>
+<meta name="description" content="Portfolio cybersecurity, CTF, dan write-up">
+<link rel="stylesheet" href="style.css">
+<script src="app.js" defer></script>
+</head>
+<body data-page="home">
+<div id="boot" hidden><pre id="boot-out"></pre></div>
+<header id="nav"></header>
+<main>
+  <section class="hero" style="margin-top:0">
+    <div>
+      <div class="status rise"><i></i><span id="status"></span></div>
+      <p class="kicker rise">// player 01 · cybersecurity</p>
+      <h1 class="rise"><span class="hello">HALO, SAYA</span><span class="glitch" data-f="name"></span></h1>
+      <p class="role rise" data-f="role"></p>
+      <p class="tagline rise" data-f="tagline"></p>
+      <p class="bio rise" data-f="bio"></p>
+      <div class="btns rise">
+        <a class="btn solid" href="projects.html">Lihat Project</a>
+        <a class="btn" href="writeups.html">Baca Write-up</a>
+        <a class="btn" id="mail" href="#">Kontak</a>
+      </div>
+      <div class="socials rise" id="socials"></div>
+    </div>
+    <div class="side rise">
+      <div class="frame">
+        <div class="ring"></div>
+        <div class="pic" id="photo"></div>
+      </div>
+      <div class="panel hud-card">
+        <div class="hc"><span>Level</span><b id="lvl">01</b></div>
+        <div class="xp-top"><span>XP</span><span id="xp-t"></span></div>
+        <div class="bar"><i id="xp" style="width:0"></i></div>
+        <div class="hc" style="margin-top:16px"><span>Class</span><b data-f="role"></b></div>
+        <div class="hc"><span>Handle</span><b data-f="handle"></b></div>
+      </div>
+    </div>
+  </section>
+
+  <div class="stats rv">
+    <div class="panel stat"><b id="n-p">0</b><span>projects</span></div>
+    <div class="panel stat"><b id="n-w">0</b><span>write-ups</span></div>
+    <div class="panel stat"><b id="n-s">0</b><span>skills</span></div>
+    <div class="panel stat"><b id="n-c">0</b><span>ctf cleared</span></div>
+  </div>
+
+  <section class="rv">
+    <p class="label">stat allocation</p>
+    <h2>Skill &amp; Level</h2>
+    <div class="skills" id="skills"></div>
+  </section>
+
+  <section>
+    <div class="sec-h"><div><p class="label">quest log</p><h2>Project Terbaru</h2></div><a href="projects.html">semua project →</a></div>
+    <div class="grid" id="latest-p"></div>
+  </section>
+
+  <section>
+    <div class="sec-h"><div><p class="label">intel files</p><h2>Write-up Terbaru</h2></div><a href="writeups.html">semua write-up →</a></div>
+    <div class="grid" id="latest-w"></div>
+  </section>
+</main>
+<div id="foot"></div>
+</body>
+</html>

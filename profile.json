@@ -1,0 +1,31 @@
+{
+  "name": "Nama Kamu",
+  "handle": "@darvorolan-lang",
+  "role": "Cybersecurity Enthusiast",
+  "tagline": "CTF player · bug hunter pemula · suka ngulik sistem sampai ketemu celahnya",
+  "bio": "Ganti teks ini dengan ceritamu: fokus belajarmu, misalnya web security, pentest, forensik, atau reverse engineering.",
+  "status": "open to collab · CTF team",
+  "photo": "profile.jpg",
+  "email": "kamu@email.com",
+  "ctf": 0,
+  "socials": [
+    { "label": "GitHub", "url": "https://github.com/darvorolan-lang" },
+    { "label": "LinkedIn", "url": "https://linkedin.com/in/username" },
+    { "label": "Instagram", "url": "https://instagram.com/username" }
+  ],
+  "skills": [
+    { "name": "Web Security", "level": 80 },
+    { "name": "Network Analysis", "level": 65 },
+    { "name": "CTF", "level": 70 },
+    { "name": "Linux", "level": 75 },
+    { "name": "Python", "level": 60 },
+    { "name": "Burp Suite", "level": 70 },
+    { "name": "Wireshark", "level": 55 }
+  ],
+  "giscus": {
+    "repo": "darvorolan-lang/information",
+    "repoId": "GANTI_REPO_ID",
+    "category": "Announcements",
+    "categoryId": "GANTI_CATEGORY_ID"
+  }
+}
